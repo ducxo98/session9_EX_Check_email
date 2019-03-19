@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT email</title>
+</head>
+<body>
+<script>
+    function email(str) {
+        let regexp = /^[a-zA-Z0-9]+[a-zA-Z0-9]*@[a-zA-Z0-9]+(\.[a-zA-Z0-9]+)$/;
+        if (regexp.test(str)){
+            document.write("email hop le"+ "<br>")
+        }else {
+            document.write("email khong hop le"+"<br>")
+        }
+
+    }
+    email("a@gmail.com")
+    email ("@gail.com")
+
+</script>
+
+</body>
+</html>
